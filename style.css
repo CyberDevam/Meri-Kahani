@@ -9,11 +9,10 @@ body {
   max-height: 100vh;
   overflow: hidden; /* Prevents unwanted scrolling */
   background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
-  justify-content: center; 
 }
 
 .container {
-  margin-top: 10%;
+  margin-top: 100px;
   width: 100%;
   min-height: 100vh;
   color: #fff;
@@ -128,4 +127,8 @@ body {
     rgba(99, 88, 238, 1) 94.3%
   );
   transition: all 0.475s;
+}
+
+.img{
+  width: 100%;
 }

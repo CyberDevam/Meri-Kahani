@@ -8,15 +8,15 @@
 body {
   max-height: 100vh;
   overflow: hidden; /* Prevents unwanted scrolling */
+  background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+  justify-content: center; 
 }
 
 .container {
+  margin-top: 10%;
   width: 100%;
   min-height: 100vh;
   color: #fff;
-  padding-top: 4%;
-  padding-left: 10%;
-  background: linear-gradient(135deg, #0F2027, #203A43, #2C5364); 
   display: flex;
   flex-direction: column;
   align-items: center;

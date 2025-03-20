@@ -13,7 +13,7 @@ function updateStorage() {
 }
 
 // Create a new note
-createBtn.addEventListener("click", () => {
+createBtn.addEventListener("click", function makeNote(){
   let inputBox = document.createElement('p');
   let img = document.createElement('img');
 
